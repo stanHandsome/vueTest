@@ -1,0 +1,102 @@
+[
+  {
+    "name": "前台管理",
+    "part": "1",
+    "path": "/dd",
+    "childrenNodes": [
+      {
+        "name": "个检订单",
+        "part": "11",
+        "gotoUrl": "",
+        "icon": "el-icon-edit-outline",
+        "childrenNodes": [
+          {
+            "name": "创建个检订单",
+            "gotoUrl": "/dd/ddorder",
+            "part": "1101"
+          },
+          {
+            "name": "个检订单管理",
+            "gotoUrl": "/dd/ddordermanage",
+            "part": "1102"
+          },
+          {
+            "name": "客户信息管理",
+            "gotoUrl": "/dd/ddinfo",
+            "part": "1103"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "财务收费",
+    "part": "2",
+    "path": "/sf",
+    "childrenNodes": [
+      {
+        "name": "交易管理",
+        "part": "21",
+        "icon": "el-icon-edit-outline",
+        "gotoUrl": "/sf/sfjymanage"
+      },
+      {
+        "name": "发票管理",
+        "part": "22",
+        "icon": "el-icon-edit-outline",
+        "gotoUrl": "/sf/sffpmanage"
+      },
+      {
+        "name": "历史查询",
+        "part": "23",
+        "icon": "el-icon-edit-outline",
+        "gotoUrl": "/sf/sfhistory"
+      }
+    ]
+  },
+  {
+    "name": "主检评估",
+    "part": "5",
+    "path": "/pg",
+    "childrenNodes": [
+      {
+        "name": "主检评估",
+        "part": "51",
+        "icon": "el-icon-edit-outline",
+        "gotoUrl": "/pg/pgmain"
+      }
+    ]
+  },
+  {
+    "name": "总检审核",
+    "part": "3",
+    "path": "/sh",
+    "childrenNodes": [
+      {
+        "name": "总检审核",   
+        "part": "31",
+        "icon": "el-icon-edit-outline",
+        "gotoUrl": "/sh/shmanage"
+      }
+    ]
+  },
+  {
+    "name": "系统配置",
+    "part": "4",
+    "path": "/xt",
+    "childrenNodes": [
+      {
+        "name": "用户列表",
+        "part": "0401",
+        "gotoUrl": "/xt/user",        
+        "icon": "el-icon-edit-outline"
+      },
+      {
+        "name": "图标",
+        "part": "0402",
+        "gotoUrl": "/xt/echart",
+        "icon": "el-icon-edit-outline"
+      }
+    ]
+  }
+]
